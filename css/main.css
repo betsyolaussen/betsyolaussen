@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "KyivTypeTilting";
+    src: url("/fonts/KyivTypeTitling-VarGX.ttf");
+  }
+
+  body {
+    height: 200vh;
+	font-family: "KyivTypeTilting";
+	font-size: 100px;
+	
+	background-color: #000000;
+	color: #ffffff;
+  }
+
+  h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
