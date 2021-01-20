@@ -5,9 +5,7 @@
 
   body {
     margin: 0;
-	  font-family: "KyivTypeTilting";
-    font-size: 2.5rem;
-	  color: #ffffff;
+	  color: #000000;
   }
 
   .homepage {
@@ -15,15 +13,18 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #cdd4cd;
-    position: relative;
     
     font-family: "KyivTypeTilting";
   }
 
-  .homepage .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .homepage .menubar {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 5em;
+    font-size: 1em;
+  }
+
+  .homepage .menubar h1 {
+    text-align: center;
   }
