@@ -1,30 +1,41 @@
-@font-face {
-    font-family: "KyivTypeTilting";
-    src: url("/fonts/KyivTypeTitling-VarGX.ttf");
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
   body {
     margin: 0;
-	  color: #000000;
+	color: #000000;
   }
 
   .homepage {
-    height: 50vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-    font-family: "KyivTypeTilting";
+    height: 100vh;
   }
 
-  .homepage .menubar {
-    position: fixed;
-    margin: auto;
-    width: 100%;
-    height: 5em;
-    font-size: 1em;
+  .homepage .title-box {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .title-text {
+    
   }
 
-  .homepage .menubar h1 {
+  .title-text h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-size: 2.5em;
   }
+  
+  .homepage p {
+    font-family: arial, sans-serif;
+  }
+  
