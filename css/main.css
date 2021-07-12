@@ -16,16 +16,12 @@
 
   .homepage .title-box {
     border: 5px solid black;
-    width: 200px;
+    width: 400px;
     height: 200px;
     
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  }
-  
-  .title-text {
     
   }
 
